@@ -1,0 +1,5 @@
+SELECT name, email, phone
+FROM students
+WHERE github is NULL
+	AND end_date is not NULL
+ORDER BY name
